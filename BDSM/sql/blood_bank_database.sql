@@ -11,6 +11,7 @@ donor_age int(60) NOT NULL,
 donor_gender varchar(10) NOT NULL,
 donor_blood varchar(10) NOT NULL,
 donor_address varchar(100) NOT NULL,
+donor_image_path varchar(255),
 Primary key(donor_id)
 );
 /*create table admin_info in which all admin information gets stored.*/
