@@ -38,10 +38,10 @@ include('head.php'); ?>
     <!-- The slideshow -->
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="image\_107317099_blooddonor976.jpg" alt="image\_107317099_blooddonor976.jpg" width="100%" height="500">
+        <img src="image\_107317099_blooddonor976.png" alt="image\_107317099_blooddonor976.jpg" width="100%" height="500">
       </div>
       <div class="carousel-item">
-        <img src="image\Blood-facts_10-illustration-graphics__canteen.png" alt="image\Blood-facts_10-illustration-graphics__canteen.png" width="100%" height="500">
+        <img src="image\Blood-facts_10-illustration-graphics__canteen.jpg" alt="image\Blood-facts_10-illustration-graphics__canteen.png" width="100%" height="500">
       </div>
 
     </div>
@@ -60,7 +60,7 @@ include('head.php'); ?>
         <div class="row">
             <div class="col-lg-4 mb-4">
                 <div class="card">
-                    <h4 class="card-header card bg-info text-white" >The need for blood</h4>
+                    <h4 class="card-header card bg-primary text-white" >The need for blood</h4>
 
                         <p class="card-body overflow-auto" style="padding-left:2%;height:120px;text-align:left;">
                           <?php
@@ -79,7 +79,7 @@ include('head.php'); ?>
             </div>
             <div class="col-lg-4 mb-4">
                 <div class="card">
-                    <h4 class="card-header card bg-info text-white">Blood Tips</h4>
+                    <h4 class="card-header card bg-primary text-white">Blood Tips</h4>
 
                     <p class="card-body overflow-auto" style="padding-left:2%;height:120px;text-align:left;">
                       <?php
@@ -99,7 +99,7 @@ include('head.php'); ?>
             </div>
             <div class="col-lg-4 mb-4">
                 <div class="card">
-                    <h4 class="card-header card bg-info text-white" >Who you could Help</h4>
+                    <h4 class="card-header card bg-primary text-white" >Who you could Help</h4>
 
                     <p class="card-body overflow-auto" style="padding-left:2%;height:120px;text-align:left;">
                       <?php
@@ -143,7 +143,7 @@ include('head.php'); ?>
 
             </div>
             <div class="col-lg-6">
-                <img class="img-fluid rounded" src="image\blood_donationcover.jpeg" alt="" >
+                <img class="img-fluid rounded" src="image\blood_donationcover.jpg" alt="" >
             </div>
         </div>
         <!-- /.row -->
@@ -168,7 +168,7 @@ include('head.php'); ?>
                ?></p>
               </div>
             <div class="col-md-4">
-                <a class="btn btn-lg btn-secondary btn-block" href="donate_blood.php" style="align:center; background-color:#7FB3D5;color:#273746 ">Become a Donor </a>
+                <a class="btn btn-lg btn-secondary btn-block" href="donate_blood.php" style="align:center; background-color:#682eab;color:white ">Become a Donor </a>
             </div>
         </div>
 

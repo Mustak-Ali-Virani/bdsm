@@ -41,7 +41,7 @@ include('head.php');
 
     </div>
     <div class="col-lg-6">
-        <img class="img-fluid rounded" src="image\08f2fccc45d2564f74ead4a6d5086871.png" style="height:600px; width:500px" alt="error"  >
+        <img class="img-fluid rounded" src="image\blooddonorstory-13-eng.jpg" style="height:800px; width:500px; margin-bottom: 50px" alt="error"  >
     </div>
 </div>
 </div>

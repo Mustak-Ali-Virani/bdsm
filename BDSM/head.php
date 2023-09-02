@@ -22,6 +22,7 @@
   padding: 12px;
   text-decoration: none;
   font-size: 18px;
+  transition: font-size 0.5s ease-in-out;
   line-height: 25px;
   border-radius: 4px;
   font-weight:bold;
@@ -29,17 +30,21 @@
 
 /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
 .header a.logo {
-  font-size: 25px;
+  font-size: 23px;
+  transition: font-size 0.5s ease-in-out;
   font-weight: bold;
-  color:#FF0404  ;
+  color:#FF0404;
+  transition: color 0.5s ease-in-out;
 }
 
 /* Change the background color on mouse-over */
 .header a:hover {
-  background-color: #ddd;
-  color: black;
+  font-size: 23px;
+  transition: 0.5s;
 }
-
+.header a.logo:hover{
+  color: white;
+}
 
 
 
