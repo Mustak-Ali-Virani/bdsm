@@ -45,7 +45,8 @@
         </div>
       </div>
       <hr>
-      <form name="donor" action="save_donor_data.php" method="post">
+      <form name="donor" action="save_donor_data.php" method="post" enctype="multipart/form-data">
+
       <div class="row">
       <div class="col-lg-4 mb-4"><br>
       <div class="font-italic">Full Name<span style="color:red">*</span></div>
@@ -99,12 +100,23 @@
       <div class="col-lg-4 mb-4">
       <div class="font-italic">Address<span style="color:red">*</span></div>
       <div><textarea class="form-control" name="address" required></textarea></div></div>
-    </div> <br>
+    </div>
+    <br> 
+     <div class="row">
+  <div class="col-lg-4 mb-4">
+    <div class="font-italic">Upload NID copy<span style="color:red">*</span></div>
+    <div><input type="file" class="form-control" name="image" accept="image/*" required></div>
+  </div>
+</div>
+    <br>
       <div class="row">
         <div class="col-lg-4 mb-4">
         <div><input type="submit" name="submit" class="btn btn-primary" value="Submit" style="cursor:pointer" onclick="popup()"></div>
         </div>
       </div>
+      <br>
+    
+
     </form>
 
       </div>

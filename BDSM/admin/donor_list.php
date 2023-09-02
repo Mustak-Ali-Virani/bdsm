@@ -26,7 +26,7 @@
       color: #fff;
       text-decoration: none;
       border-radius: 3px;
-      align:center
+      text-align: center;
   }
 </style>
 </head>
@@ -84,6 +84,7 @@ include 'conn.php';
           <th style="text-align:center">Blood Group</th>
           <th style="text-align:center">Address</th>
           <th style="text-align:center">Action</th>
+          <th style="text-align: center">NID</th>
           </thead>
           <tbody>
             <?php
@@ -100,6 +101,8 @@ include 'conn.php';
                     <td id="he" style="width:100px">
                     <a style="background-color:aqua" href='delete.php?id=<?php echo $row['donor_id']; ?>'> Delete </a>
                 </td>
+                <td><a href="<?php echo $row['donor_image_path']; ?>" download>Download <?php echo basename($row['donor_image_path']); ?></a>
+</td>
               </tr>
             <?php } ?>
           </tbody>
