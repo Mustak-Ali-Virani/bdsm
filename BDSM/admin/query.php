@@ -26,7 +26,7 @@
       color: #fff;
       text-decoration: none;
       border-radius: 3px;
-      align:center
+      text-align:center;
   }
 </style>
 </head>
