@@ -74,6 +74,13 @@ $active ='donate';
 <div class="font-italic">Address<span style="color:red">*</span></div>
 <div><textarea class="form-control" name="address" required></textarea></div></div>
 </div>
+
+<div class="row">
+  <div class="col-lg-4 mb-4">
+    <div class="font-italic">Upload NID copy<span style="color:red">*</span></div>
+    <div><input type="file" class="form-control" name="image" accept="image/*" required></div>
+  </div>
+</div>
 <div class="row">
   <div class="col-lg-4 mb-4">
   <div><input type="submit" name="submit" class="btn btn-primary" value="Submit" style="cursor:pointer"></div>
