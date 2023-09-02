@@ -14,6 +14,26 @@ donor_address varchar(100) NOT NULL,
 donor_image_path varchar(255),
 Primary key(donor_id)
 );
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `vip_info`
+--
+
+CREATE TABLE `vip_info` (
+  `vip_username` varchar(50) NOT NULL,
+  `vip_password` int(10) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `vip_info`
+--
+
+INSERT INTO `vip_info` (`vip_username`, `vip_password`) VALUES
+('evercare', 123),
+('unitedhospital', 123);
+
+
 /*create table admin_info in which all admin information gets stored.*/
 create table admin_info(
 admin_id int(10) NOT NULL UNIQUE AUTO_INCREMENT,
@@ -160,7 +180,7 @@ timestamp DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP;
 
 
 insert into contact_query (query_name,query_mail,query_number,query_message) values
-("Anuj","anuj@gmail.com","9923471025","I need O+ Blood.");
+("Virani","birani@gmail.com","24441139","I need O+ Blood.");
 
 update contact_query set query_status="1" where query_id="1";
 
